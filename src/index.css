@@ -114,9 +114,7 @@ button { cursor: pointer; background: none; border: 0; }
   background: linear-gradient(90deg, var(--accent) 0 14%, var(--red) 14% 24%, var(--blue) 24% 34%, var(--teal) 34% 44%, var(--violet) 44% 54%, transparent 54%);
   opacity: .9;
 }
-.aveva-strip img { height: 26px; display: block; }
 .aveva-left { display: flex; align-items: center; gap: 14px; }
-.aveva-left span { padding-left: 14px; border-left: 1px solid var(--line-2); }
 .aveva-right { display: inline-flex; align-items: center; gap: 18px; }
 .live { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); letter-spacing: .4px; color: var(--muted); text-transform: none; }
 .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--good); animation: pulse 2s infinite; }
@@ -442,7 +440,6 @@ tr.clickable, .alert.clickable, .asset.clickable { cursor: pointer; }
 [data-density="compact"] .nav-item > svg { width: 16px; height: 16px; }
 [data-density="compact"] .side-foot { padding: 9px 10px; font-size: 11px; }
 [data-density="compact"] .aveva-strip { padding: 3px 20px; }
-[data-density="compact"] .aveva-strip img { height: 22px; }
 [data-density="compact"] .title-row { padding: 8px 20px; gap: 10px; }
 [data-density="compact"] .page-title { font-size: 21px; }
 [data-density="compact"] .page-sub { font-size: 11.5px; margin-top: 2px; }

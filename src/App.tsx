@@ -116,7 +116,6 @@ export default function App() {
         <header className="titlebar">
           <div className="aveva-strip">
             <div className="aveva-left">
-              <img src="/logos/aveva.png" alt="AVEVA" />
               <span className="hide-sm">Industrial Operations Platform</span>
             </div>
             <div className="aveva-right">
@@ -158,7 +157,7 @@ export default function App() {
               {tab === "alerts" && <Alerts f={f} status={status} setStatus={setStatus} go={go} initialSev={opts.sev} />}
             </motion.div>
           </AnimatePresence>
-          <p className="footer">Data for demonstration · Jotun Smart Factory · powered by AVEVA</p>
+          <p className="footer">Data for demonstration · Jotun Smart Factory</p>
           <AnimatePresence>
             {toast && (
               <motion.div className="toast" role="status" initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 16 }} transition={{ duration: 0.2 }}>
